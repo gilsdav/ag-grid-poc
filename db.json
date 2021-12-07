@@ -1,0 +1,314 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server 1",
+      "author": "atypicode",
+      "price": 14,
+      "status": "DONE"
+    },
+    {
+      "id": 2,
+      "title": "json-server 2",
+      "author": "btypicode",
+      "price": 14,
+      "status": "DONE"
+    },
+    {
+      "id": 3,
+      "title": "json-server 3",
+      "author": "ctypicode",
+      "price": 14,
+      "status": "DONE"
+    },
+    {
+      "id": 4,
+      "title": "json-server 4",
+      "author": "dtypicode",
+      "price": 14,
+      "status": "DONE"
+    },
+    {
+      "id": 5,
+      "title": "json-server 5",
+      "author": "ftypicode",
+      "price": 14,
+      "status": "TODO"
+    },
+    {
+      "id": 6,
+      "title": "json-server 6",
+      "author": "gtypicode",
+      "price": 14,
+      "status": "TODO"
+    },
+    {
+      "id": 7,
+      "title": "json-server 7",
+      "author": "htypicode",
+      "price": 14,
+      "status": "TODO"
+    },
+    {
+      "id": 8,
+      "title": "json-server 8",
+      "author": "itypicode",
+      "price": 14,
+      "status": "TODO"
+    },
+    {
+      "id": 9,
+      "title": "json-server 9",
+      "author": "jtypicode",
+      "price": 14,
+      "status": "TODO"
+    },
+    {
+      "id": 10,
+      "title": "json-server 10",
+      "author": "ktypicode",
+      "price": 14,
+      "status": "TODO"
+    },
+    {
+      "id": 11,
+      "title": "json-server 11",
+      "author": "ltypicode",
+      "price": 300,
+      "status": "TODO"
+    },
+    {
+      "id": 12,
+      "title": "json-server 12",
+      "author": "mtypicode",
+      "price": 14,
+      "status": "TODO"
+    },
+    {
+      "id": 13,
+      "title": "json-server 13",
+      "author": "ntypicode",
+      "price": 14,
+      "status": "TODO"
+    },
+    {
+      "id": 14,
+      "title": "json-server 14",
+      "author": "otypicode",
+      "price": 14,
+      "status": "TODO"
+    },
+    {
+      "id": 15,
+      "title": "json-server 15",
+      "author": "ptypicode",
+      "price": 14,
+      "status": "IN-PROGRESS"
+    },
+    {
+      "id": 16,
+      "title": "json-server 16",
+      "author": "qtypicode",
+      "price": 14,
+      "status": "IN-PROGRESS"
+    },
+    {
+      "id": 17,
+      "title": "json-server 17",
+      "author": "rtypicode",
+      "price": 50,
+      "status": "IN-PROGRESS"
+    },
+    {
+      "id": 18,
+      "title": "json-server 18",
+      "author": "stypicode",
+      "price": 270,
+      "status": "TODO"
+    },
+    {
+      "id": 19,
+      "title": "json-server 19",
+      "author": "ttypicode",
+      "price": 14,
+      "status": "TODO"
+    }
+  ],
+  "favorit": {
+    "profile": 3
+  },
+  "profiles": [
+    {
+      "column": [
+        {
+          "colId": "status",
+          "hide": false,
+          "aggFunc": null,
+          "width": 200,
+          "pivotIndex": null,
+          "pinned": null,
+          "rowGroupIndex": null,
+          "flex": 0
+        },
+        {
+          "colId": "title",
+          "hide": false,
+          "aggFunc": null,
+          "width": 200,
+          "pivotIndex": null,
+          "pinned": null,
+          "rowGroupIndex": null,
+          "flex": 0
+        },
+        {
+          "colId": "author",
+          "hide": false,
+          "aggFunc": null,
+          "width": 200,
+          "pivotIndex": null,
+          "pinned": null,
+          "rowGroupIndex": null,
+          "flex": 0
+        },
+        {
+          "colId": "price",
+          "hide": true,
+          "aggFunc": null,
+          "width": 200,
+          "pivotIndex": null,
+          "pinned": null,
+          "rowGroupIndex": null,
+          "flex": 0
+        }
+      ],
+      "filters": {
+        "status": {
+          "values": [
+            "DONE",
+            "IN-PROGRESS"
+          ],
+          "filterType": "set"
+        }
+      },
+      "sorting": [],
+      "name": "not todo",
+      "id": 1
+    },
+    {
+      "column": [
+        {
+          "colId": "title",
+          "hide": false,
+          "aggFunc": null,
+          "width": 200,
+          "pivotIndex": null,
+          "pinned": "left",
+          "rowGroupIndex": null,
+          "flex": 0
+        },
+        {
+          "colId": "price",
+          "hide": false,
+          "aggFunc": null,
+          "width": 100,
+          "pivotIndex": null,
+          "pinned": "left",
+          "rowGroupIndex": null,
+          "flex": 0
+        },
+        {
+          "colId": "author",
+          "hide": true,
+          "aggFunc": null,
+          "width": 200,
+          "pivotIndex": null,
+          "pinned": null,
+          "rowGroupIndex": null,
+          "flex": 0
+        },
+        {
+          "colId": "status",
+          "hide": false,
+          "aggFunc": null,
+          "width": 200,
+          "pivotIndex": null,
+          "pinned": null,
+          "rowGroupIndex": null,
+          "flex": 0
+        }
+      ],
+      "filters": {
+        "status": {
+          "values": [
+            "IN-PROGRESS",
+            "TODO"
+          ],
+          "filterType": "set"
+        }
+      },
+      "sorting": [
+        {
+          "colId": "status",
+          "sort": "asc"
+        }
+      ],
+      "name": "todo",
+      "id": 2
+    },
+    {
+      "column": [
+        {
+          "colId": "price",
+          "hide": false,
+          "aggFunc": null,
+          "width": 133,
+          "pivotIndex": null,
+          "pinned": null,
+          "rowGroupIndex": null,
+          "flex": 0
+        },
+        {
+          "colId": "author",
+          "hide": false,
+          "aggFunc": null,
+          "width": 150,
+          "pivotIndex": null,
+          "pinned": null,
+          "rowGroupIndex": null,
+          "flex": 0
+        },
+        {
+          "colId": "title",
+          "hide": false,
+          "aggFunc": null,
+          "width": 500,
+          "pivotIndex": null,
+          "pinned": null,
+          "rowGroupIndex": null,
+          "flex": 0
+        },
+        {
+          "colId": "status",
+          "hide": false,
+          "aggFunc": null,
+          "width": 200,
+          "pivotIndex": null,
+          "pinned": null,
+          "rowGroupIndex": null,
+          "flex": 0
+        }
+      ],
+      "filters": {
+        "price": {
+          "filterType": "number",
+          "type": "greaterThan",
+          "filter": 49,
+          "filterTo": null
+        }
+      },
+      "sorting": [],
+      "name": "big",
+      "id": 3
+    }
+  ]
+}
